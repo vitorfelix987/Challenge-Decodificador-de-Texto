@@ -1,0 +1,96 @@
+*{
+    background: #ecf4f8;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+.logoAlura {
+    width: Hug (120px)px;
+    height: Hug (48px)px;
+    top: 40px;
+    left: 40px;
+    gap: 40px;
+    opacity: 0px;
+}
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.text-area{
+    border:none;
+    color: #0a3871;
+    margin-top: 90px;
+    text-transform: lowercase
+}
+::placeholder{ color:#0a3871;}
+.text-area:focus{
+        outline: none;
+    }
+.mensagem{
+    background-color: white;
+    background-image:url(./imagens/personagem.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color:#699fe1;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    
+
+}
+.mensagen__box{
+    display: flex;
+    flex-direction: column;
+    background: none;
+}
+
+.mensagem:focus{
+    outline: none;
+}
+.botoes{
+    display: flex;
+    margin-top: 18px;
+}
+.btn-encriptar{
+    background:#d8dfe8 ;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color:#0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+
+}
+.btn-desencriptar{ 
+    background:#0a3871 ;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color:#d8dfe8;
+    cursor: pointer;
+    height: 67px;
+    height: 67px;
+    width: 328px;
+
+}
+.btn-copiar{
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402;
+    position:absolute;
+    width: 336px;
+}
+.informacao{
+    color: #495057;
+    font-size: 18px;
+    
+}
